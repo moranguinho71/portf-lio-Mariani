@@ -5,12 +5,12 @@ padding: 0;
 
 body{
     height: 100vh;
-    background: rgb(255, 106, 168);
+    background: rgb(252, 111, 170);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
     margin:0;
-    color:whitesmoke;
+    color:rgb(250, 216, 227);
 }
 
 .cabecalho{
@@ -29,4 +29,27 @@ font-size: 24px;
 font: weight 600px;
 color: whitesmoke;
 text-decoration:none;
+}
+
+.conteudo {
+    height: auto;
+    flex-direction:column;
+    margin:10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 40px;
+    order:2;
+    
+
 }
