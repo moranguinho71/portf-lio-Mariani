@@ -65,7 +65,7 @@ body {
 
 .botao1{
     background-color: #000;
-    color: #e18fb4;
+    color: #ef589c;
     width: 500px;
     height: 80px;
     text-align: center;
@@ -91,7 +91,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #f091bd);
+    background: linear-gradient(45deg, transparent, #e34991);
     transition: 0.5s;
 }
 
